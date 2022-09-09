@@ -22,7 +22,7 @@ services:
     image: wesleywillians/kong-service:latest
     environment:
       PORT: ":8082"
-      CONTENT: "<h1>Service b</h1>"
+      CONTENT: "<h1>Service B</h1>"
     networks:
       - kong-net
     ports:
